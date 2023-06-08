@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Categories.automobileCateActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/purpleBtn">
+
+        <ImageButton
+            android:id="@+id/automobileAppBarBackButton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_icon"
+            android:backgroundTint="#00FFFFFF"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/automobileAppBarTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="45sp"/>
+
+        <TextView
+            android:id="@+id/automobileCateTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textSize="45sp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="180dp"
+        android:src="@drawable/auto_quest"
+        android:layout_gravity="center_horizontal"/>
+
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/questionshape">
+
+            <TextView
+                android:id="@+id/automobileQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Question"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"/>
+
+        </RelativeLayout>
+
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:id="@+id/automobileOpt1"
+        android:gravity="center"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/answer"
+        android:text="Ans A"
+        android:textSize="23sp"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:id="@+id/automobileOpt2"
+        android:gravity="center"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/answer"
+        android:text="Ans B"
+        android:textSize="23sp"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:id="@+id/automobileOpt3"
+        android:gravity="center"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/answer"
+        android:text="Ans C"
+        android:textSize="23sp"
+        android:textColor="@color/black"/>
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:id="@+id/automobileOpt4"
+        android:gravity="center"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/answer"
+        android:text="Ans D"
+        android:textSize="23sp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:id="@+id/automobileSubmitButton"
+        android:gravity="center"
+        android:layout_marginLeft="23dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="@color/orangeBtn"
+        android:text="Submit"
+        android:textSize="23sp"
+        android:textColor="@color/black"/>
+    <Button
+        android:id="@+id/automobileCatFinishQuizButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="75dp"
+        android:backgroundTint="@color/greenBtn"
+        android:text="Finish The Quiz!"
+        android:textSize="25sp"/>
+
+
+
+</LinearLayout>

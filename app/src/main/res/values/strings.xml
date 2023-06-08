@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Quiz_App</string>
+    <string name="welcome">Welcome!</string>
+    <string name="welcome_rules">This is a knowledge competition app. There is 10 different categories. We expect you to solve every question related to that specific category, in 30 seconds.</string>
+</resources>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.Categories.musicCateActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/purpleBtn">
+
+        <ImageButton
+            android:id="@+id/musicAppBarBackButton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/back_icon"
+            app:tint="@color/white"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/musicAppBarTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:text="Music"
+            android:textColor="@color/white"
+            android:textSize="55sp"/>
+
+        <TextView
+            android:id="@+id/musicCateTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textSize="45sp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Listen this audio before your answer!"
+            android:textSize="23sp"
+            android:textColor="@color/black"
+            android:gravity="center_horizontal"/>
+        <Button
+            android:id="@+id/musicPlayButton"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="10dp"
+            android:text="PLAY"
+            android:textSize="45sp"
+            android:backgroundTint="@color/greenBtn"/>
+        <Button
+            android:id="@+id/musicPauseButton"
+            android:layout_width="187dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="202dp"
+            android:text="PAUSE"
+            android:textSize="45sp"
+            android:backgroundTint="@color/redBtn"/>
+    </RelativeLayout>
+
+
+        
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/questionshape">
+
+            <TextView
+                android:id="@+id/musicQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Question"
+                android:textSize="35sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="15dp"/>
+
+        </RelativeLayout>
+                <Button
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/musicOpt1"
+                    android:gravity="center"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/answer"
+                    android:text="Ans A"
+                    android:textSize="23sp"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/musicOpt2"
+                    android:gravity="center"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/answer"
+                    android:text="Ans B"
+                    android:textSize="23sp"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/musicOpt3"
+                    android:gravity="center"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/answer"
+                    android:text="Ans C"
+                    android:textSize="23sp"
+                    android:textColor="@color/black"/>
+                <Button
+                    android:layout_width="350dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/musicOpt4"
+                    android:gravity="center"
+                    android:layout_marginLeft="23dp"
+                    android:layout_marginTop="10dp"
+                    android:backgroundTint="@color/answer"
+                    android:text="Ans D"
+                    android:textSize="23sp"
+                    android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/musicSubmitButton"
+            android:gravity="center"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/orangeBtn"
+            android:text="Submit"
+            android:textSize="23sp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/musicCatFinishQuizButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="75dp"
+            android:backgroundTint="@color/greenBtn"
+            android:text="Finish The Quiz!"
+            android:textSize="25sp"/>
+
+
+
+
+</LinearLayout>

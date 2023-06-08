@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blueBg">#2EB7DA</color>
+    <color name="greenBtn">#20D600</color>
+    <color name="purpleBtn">#A800D6</color>
+    <color name="orangeBtn">#D68800</color>
+    <color name="redBtn">#FF0000</color>
+    <color name="category">#FFFF00</color>
+    <color name="question">#009688</color>
+    <color name="answer">#8BC34A</color>
+</resources>

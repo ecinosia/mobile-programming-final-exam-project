@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.Categories.scienceCateActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@color/purpleBtn">
+
+        <ImageButton
+            android:id="@+id/scienceAppBarBackButton"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/back_icon"
+            android:backgroundTint="#00FFFFFF"
+            app:tint="@color/white" />
+
+        <TextView
+            android:id="@+id/scienceAppBarTV"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_centerHorizontal="true"
+            android:text=""
+            android:textColor="@color/white"
+            android:textSize="55sp"/>
+
+        <TextView
+            android:id="@+id/scienceCateTimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="330dp"
+            android:layout_marginTop="10dp"
+            android:text=""
+            android:textSize="45sp"
+            android:textColor="@color/white"/>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="350dp"
+            android:layout_height="90dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/questionshape">
+
+            <TextView
+                android:id="@+id/scienceQuestion"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Question"
+                android:textSize="25sp"
+                android:textColor="@color/white"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="15dp"/>
+
+        </RelativeLayout>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/scienceOpt1"
+            android:gravity="center"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="120dp"
+            android:backgroundTint="@color/answer"
+            android:text="Ans A"
+            android:textSize="23sp"
+            android:textColor="@color/black"/>
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/scienceOpt2"
+            android:gravity="center"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="190dp"
+            android:backgroundTint="@color/answer"
+            android:text="Ans B"
+            android:textSize="23sp"
+            android:textColor="@color/black"/>
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/scienceOpt3"
+            android:gravity="center"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="260dp"
+            android:backgroundTint="@color/answer"
+            android:text="Ans C"
+            android:textSize="23sp"
+            android:textColor="@color/black"/>
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/scienceOpt4"
+            android:gravity="center"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="330dp"
+            android:backgroundTint="@color/answer"
+            android:text="Ans D"
+            android:textSize="23sp"
+            android:textColor="@color/black"/>
+
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:id="@+id/scienceSubmitButton"
+            android:gravity="center"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="425dp"
+            android:backgroundTint="@color/orangeBtn"
+            android:text="Submit"
+            android:textSize="23sp"
+            android:textColor="@color/black"/>
+        <Button
+            android:id="@+id/scienceCatFinishQuizButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="600dp"
+            android:layout_marginLeft="75dp"
+            android:backgroundTint="@color/greenBtn"
+            android:text="Finish The Quiz!"
+            android:textSize="25sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>
